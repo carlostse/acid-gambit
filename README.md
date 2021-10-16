@@ -7,15 +7,9 @@ Acid Gambit is a third person shooting game developed as a project from CUHK CMS
 Unity 4.6.3
 
 ### Game Program ###
-Binary is available for Windows and Mac OS X.
+Binary is available for Windows and macOS.
 
-Windows 32-bit:
-
-http://uhub.com/uPMYk3yT
-
-Mac OS X 64-bit:
-
-http://uhub.com/5itRze9S
+[Acid Gambit Releases](https://github.com/carlostse/acid-gambit/releases)
 
 ### Demo Video in YouTube ###
 The demo video is also available on YouTube:
