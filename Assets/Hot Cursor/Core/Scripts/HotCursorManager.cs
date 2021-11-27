@@ -229,11 +229,11 @@ public class HotCursorManager : MonoBehaviour {
 
 		if(hit != null)
 		{
-			if(hit.collider2D != null) //If the object that we hit have a collider.
+			if(hit.GetComponent<Collider2D>() != null) //If the object that we hit have a collider.
 			{
 				for(int i = 0; i < signs.Count; i++) //Loop through to signs list.
 				{
-					if(hit.collider2D.tag == signs[i].tag) //Checks the hit gameobject's tag exist on the list.
+					if(hit.GetComponent<Collider2D>().tag == signs[i].tag) //Checks the hit gameobject's tag exist on the list.
 					{
 						DisableCrosshair = true; //Disable the crosshair
 						
